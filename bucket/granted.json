@@ -1,0 +1,30 @@
+{
+    "version": "0.21.1",
+    "description": "A CLI application which provides the world’s best developer UX for finding and accessing cloud roles to multiple cloud accounts, fast!",
+    "homepage": "https://www.granted.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.commonfate.io/granted/0.20.1/granted_0.20.1_windows_x86_64.zip"
+        }
+    },
+    "bin": [
+        "granted.exe",
+        "assume",
+        "assume.bat",
+        "assume.fish",
+        "assumego.exe",
+        "assume.ps1"
+    ],
+    "checkver": {
+        "url": "https://docs.commonfate.io/granted/getting-started",
+        "regex": "granted_([0-9.]+)_windows_x86_64.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://releases.commonfate.io/granted/$version/granted_$version_windows_x86_64.zip"
+            }
+        }
+    }
+}
