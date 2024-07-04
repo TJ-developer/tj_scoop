@@ -1,12 +1,12 @@
 {
-    "version": "0.27.5",
+    "version": "0.29.0",
     "description": "A CLI application which provides the world’s best developer UX for finding and accessing cloud roles to multiple cloud accounts, fast!",
     "homepage": "https://www.granted.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://releases.commonfate.io/granted/v0.27.5/granted_0.27.5_windows_x86_64.zip",
-            "hash": "97ffcd89d8022f9043d5df9e5221f634b0b06f89e6358139cc7aadadc978f6f0"
+            "url": "https://releases.commonfate.io/granted/v0.29.0/granted_0.29.0_windows_x86_64.zip",
+            "hash": "70845e1489396cdf79075a22dcbbdd83af75bebe7b23a7a9a4758b4ca9b9b65a"
         }
     },
     "bin": [
